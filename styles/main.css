@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 @import "./header.css";
 @import "./project.css";
+@import "./quotes.css";
 
 * {
   margin: 0;
