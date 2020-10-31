@@ -3,7 +3,7 @@ export const Project = (projObj) => {
 
   return `
   <div class="projectCard">
-  <a src="${projObj.siteLink}">
+  <a href="${projObj.siteLink}">
   <div class="projectCard__body" style="background-image: url('${projObj.img}');>
     <h3 class="projectCard__header">${projObj.title}</h3>
   </div>
