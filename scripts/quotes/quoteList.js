@@ -243,13 +243,12 @@ const regex = /(\n\n)/gi
 let epis = epigrams.replace(regex, '"')
 let split = epis.split('"')
 console.log(split)
-const pusher = () => {}
 
-export const dQuoter = (epi) => {}
 export const sorterer = (epi) => {
-  //   const regex = /(\n\n)/gi
-  //   let arr = epi.replace(regex, '", "')
-  //   return arr
+  const regex = /(\n\n)/gi
+  let epis = epigrams.replace(regex, '"')
+  let split = epis.split('"')
+  console.log(split)
 }
 
 // sorterer(epigrams)
