@@ -5,13 +5,14 @@
 .cardContainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
 
 .projectCard {
   text-align: center;
-  height: 25vh;
+  height: 100%;
   width: 80%;
   margin: 2rem;
   -webkit-box-shadow: 7px 13px 14px 7px rgba(0, 0, 0, 0.63);
@@ -31,7 +32,7 @@ img {
   height: auto;
 }
 
-h3 {
+.projectCard__header {
   background-color: lightseagreen;
   padding: 1.5rem;
   font-size: 2rem;

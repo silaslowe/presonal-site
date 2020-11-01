@@ -28,7 +28,6 @@ h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
-
 #container {
   display: flex;
   flex-direction: column;
@@ -42,4 +41,9 @@ h6 {
   width: 90%;
   background-color: lightcyan;
   height: 100vh;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }

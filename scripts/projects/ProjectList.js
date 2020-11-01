@@ -25,6 +25,6 @@ const render = (arr) => {
   projectTarget.innerHTML = `
   <div class="cardContainer">
   ${arr.map((project) => Project(project)).join(" ")}
-  <div>
+  </div>
       `
 }
